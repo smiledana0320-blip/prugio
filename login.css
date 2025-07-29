@@ -1,0 +1,255 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.inner {
+  width: 1100px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+  height: 170px;
+  font-size: 18px;
+  background: url(imges/bg_membership.jpg) no-repeat 100%;
+  color: #fff;
+  padding-top: 39px;
+}
+
+header .headin {
+  display: flex;
+  justify-content: space-between;
+  width: 1117px;
+  margin-left: 380px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+
+header div .mypur {
+  /* width: 93px;
+  line-height: 30px; */
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 7px 11px;
+}
+
+main .inner {
+  height: 840px;
+  padding: 90px 0 150px;
+}
+
+main h2,
+p {
+  text-align: center;
+}
+main h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+main .subT {
+  font-size: 15px;
+  font-weight: 350;
+  color: #666;
+  border-bottom: 1px solid #e3e3e3;
+  padding-bottom: 40px;
+  margin-bottom: 80px;
+}
+section {
+  width: 290px;
+  margin: auto;
+}
+/*모양바꿔야됨*/
+section p input {
+  border: none;
+  background: none;
+  /* outline: none; */
+  width: 290px;
+  height: 40px;
+}
+
+section .id,
+section .password {
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 5px 5px 5px 15px;
+  box-sizing: border-box;
+}
+
+section .login,
+section .join a {
+  font-size: 15px;
+  color: #fff;
+  line-height: 40px;
+}
+
+section a .login {
+  background: #005151;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+section .join a {
+  display: block;
+  background: #5b6770;
+  border-radius: 6px;
+}
+
+section .find {
+  display: inline-block;
+  margin-top: 20px;
+  width: 145px;
+  height: 22px;
+  font-size: 15px;
+  color: #666;
+  text-align: center;
+}
+section .find:first-of-type {
+  border-right: 1px solid #e4e4e4;
+}
+/**footer css*/
+
+footer {
+  font-size: 13px;
+  color: #d9d9d7;
+  background: #5a6770;
+  padding-top: 10px;
+}
+.fLogo {
+  width: 215px;
+  height: 167px;
+  display: block;
+  float: left;
+  padding-top: 15px;
+}
+
+/* .fLogo p{ height: 42px;} */
+
+.fLogo span {
+  display: inline-block;
+  padding: 42px 0 52px;
+}
+
+.fLogo span img {
+  padding-right: 4px;
+}
+
+.inner .footer1 {
+  width: 884px;
+  float: left;
+}
+
+.personal,
+.company {
+  display: inline-block;
+  height: 42px;
+  line-height: 42px;
+}
+
+.inner .personal li {
+  float: left;
+  padding-right: 30px;
+}
+
+.personal strong {
+  color: #fff;
+}
+.company {
+  float: right;
+}
+
+.company li a img {
+  padding-left: 135px;
+}
+
+.company li {
+  float: left;
+  width: 172px;
+  height: 34px;
+  border: 1px solid #828282;
+  line-height: 34px;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.company .summit {
+  margin-left: 11px;
+  background: url(imges/summit_bi.png) no-repeat 0%;
+}
+.company .daewoo {
+  margin-left: 11px;
+  vertical-align: middle;
+  background: url(imges/daewoo_bi.png) no-repeat 0%;
+}
+
+.line {
+  border-bottom: 1px solid #707b82;
+}
+
+.footer1 address {
+  float: left;
+  clear: both;
+  padding-top: 24px;
+}
+.footer1 address small {
+  color: #a2aaad;
+}
+.footer1 dl {
+  padding-top: 20px;
+  float: right;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer1 dl dd {
+  float: left;
+  padding-left: 10px;
+}
+
+.footer1 .sns {
+  clear: both;
+  float: right;
+}
+
+.footer1 .sns li {
+  float: left;
+}
+
+.footer1 .sns .yu {
+  width: 34px;
+  height: 24px;
+  background-image: url(imges/sns_ico_sprites.png);
+  background-size: 114px 24px;
+  background-position: -53px 0;
+  background-repeat: no-repeat;
+}
+
+.sns .in {
+  width: 24px;
+  height: 24px;
+  background-image: url(imges/sns_ico_sprites.png);
+  background-size: 114px 24px;
+  background-position: 0px 0;
+  background-repeat: no-repeat;
+  margin: 0 23px 0 23px;
+}
+
+.sns .ca {
+  width: 29px;
+  height: 30px;
+  background-image: url(imges/ch_img.jpg);
+  background-repeat: no-repeat;
+}
